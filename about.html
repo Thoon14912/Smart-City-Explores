@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About • Smart Sustainable City Explorer</title>
+
+  <link rel="icon" type="image/png" href="images/Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold me-4" href="index.html">
+      <img src="images/Logo.png" style="height:45px;width:45px;">
+      Smart City Explorer
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">City Zones</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="transport.html">Transport</a></li>
+            <li><a class="dropdown-item" href="energy.html">Energy</a></li>
+            <li><a class="dropdown-item" href="traffic.html">Traffic</a></li>
+            <li><a class="dropdown-item" href="waste.html">Waste</a></li>
+            <li><a class="dropdown-item" href="homes.html">Homes</a></li>
+            <li><a class="dropdown-item" href="health.html">Health</a></li>
+            <li><a class="dropdown-item" href="parks.html">Park</a></li>
+            <li><a class="dropdown-item" href="water.html">Water</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Data & Map</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="city-map.html">City Map</a></li>
+            <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container mt-5 text-center">
+  <h1>About Smart City Explorer</h1>
+  <p class="lead">Learn more about this website.</p>
+</div>
+
+
+<div class="container mt-5">
+  <div class="row g-4 align-items-center">
+
+    <div class="col-md-6">
+      <h2>Project Purpose</h2>
+      <p>
+        Smart City Explorer is an ICT educational website created to demonstrate modern web design using Bootstrap components and responsive layouts.
+        The website shows how different city zones can be presented through interactive web pages.
+      </p>
+
+      <div class="alert alert-success mt-3">
+        This website focuses on UI design, navigation and user experience.
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card p-4 shadow">
+        <h4>Website Features</h4>
+        <ul>
+          <li>Responsive Bootstrap layout</li>
+          <li>Navigation bar with dropdown menus</li>
+          <li>Interactive components (accordion, cards)</li>
+          <li>Consistent design across pages</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+
+  <div class="accordion" id="faqAccordion">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          What is this website about?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          It is an ICT project showing how a smart sustainable city can be explored using a website.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+          What tools were used?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          HTML, CSS, Bootstrap and Bootstrap Icons.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-5">Project Team</h2>
+
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <h5>Zayar Win Htay (Designer)</h5>
+        <p>Created layout and user interface.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <h5>Zayar Win Htay and Lwin Htet Aung (Developer)</h5>
+        <p>Built pages using Bootstrap components.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <h5>Thoon Thadar Htun (Researcher)</h5>
+        <p>Prepared content and project ideas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer mt-5 py-5 text-light" style="background:linear-gradient(135deg,#0f172a,#1e293b);">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <h3>Smart City Explorer</h3>
+        <p>Building smarter and greener cities for future generations.</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>Quick Links</h5>
+        <a href="index.html" class="d-block text-light-emphasis">Home</a>
+        <a href="about.html" class="d-block text-light-emphasis">About</a>
+        <a href="contact.html" class="d-block text-light-emphasis">Contact</a>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>Subscribe</h5>
+        <input type="email" class="form-control mb-2" placeholder="Enter email">
+        <button class="btn btn-success w-100">Subscribe</button>
+      </div>
+
+    </div>
+
+    <hr>
+    <p class="text-center">© 2026 Smart City Explorer</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

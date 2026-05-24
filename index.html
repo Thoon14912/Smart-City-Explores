@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Sustainable City Explorer</title>
+
+  <link rel="icon" type="image/png" href="images/Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold me-4" href="index.html">
+      <img src="images/Logo.png" style="height:45px;width:45px;">
+      Smart City Explorer
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">City Zones</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="transport.html">Transport</a></li>
+            <li><a class="dropdown-item" href="energy.html">Energy</a></li>
+            <li><a class="dropdown-item" href="traffic.html">Traffic</a></li>
+            <li><a class="dropdown-item" href="waste.html">Waste</a></li>
+            <li><a class="dropdown-item" href="homes.html">Homes</a></li>
+            <li><a class="dropdown-item" href="health.html">Health</a></li>
+            <li><a class="dropdown-item" href="parks.html">Parks</a></li>
+            <li><a class="dropdown-item" href="water.html">Water</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Data & Map</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="city-map.html">City Map</a></li>
+            <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div id="cityCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="images/city1.jpg" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Smart & Sustainable Cities</h1>
+        <p>Technology improving everyday urban life</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/city2.png" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Cleaner Transport</h1>
+        <p>Electric mobility and smart traffic systems</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/city3.jpg" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Green Future</h1>
+        <p>Renewable energy and eco-friendly living</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#cityCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cityCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="container py-5 text-center">
+  <h2>Welcome to Smart City Explorer</h2>
+  <p>Explore how technology and sustainability work together to create better cities.</p>
+
+  <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+    <span class="badge bg-success rounded-pill">Smart Transport</span>
+    <span class="badge bg-primary rounded-pill">Renewable Energy</span>
+    <span class="badge bg-warning text-dark rounded-pill">Smart Homes</span>
+    <span class="badge bg-info text-dark rounded-pill">Clean Environment</span>
+  </div>
+</div>
+
+
+
+<div class="container py-5">
+  <h2>Introduction</h2>
+  <p>
+    This educational website presents a fictional smart sustainable city where modern
+    technologies work together to improve sustainability, efficiency and quality of life.
+  </p>
+</div>
+
+
+
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h2>What is a Smart & Sustainable City?</h2>
+    <p>A smart city uses technology and eco-friendly systems to improve transport, energy, safety and environment.</p>
+  </div>
+
+  <div class="accordion" id="smartCityAccordion">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#transport">
+          Smart Transport
+        </button>
+      </h2>
+      <div id="transport" class="accordion-collapse collapse" data-bs-parent="#smartCityAccordion">
+        <div class="accordion-body">Electric buses and AI traffic systems reduce congestion and pollution.</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#traffic">
+          Smart Traffic
+        </button>
+      </h2>
+      <div id="traffic" class="accordion-collapse collapse" data-bs-parent="#smartCityAccordion">
+        <div class="accordion-body">Smart sensors monitor roads and prevent accidents.</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#energy">
+          Renewable Energy
+        </button>
+      </h2>
+      <div id="energy" class="accordion-collapse collapse" data-bs-parent="#smartCityAccordion">
+        <div class="accordion-body">Solar panels and wind turbines reduce fossil fuel use.</div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row py-5 text-center g-4">
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card p-3 shadow h-100">
+        <h5>Cleaner Environment</h5>
+        <p>Less pollution and better air quality.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card p-3 shadow h-100">
+        <h5>Better City Life</h5>
+        <p>Safer streets and faster transport.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card p-3 shadow h-100">
+        <h5>Smart Resources</h5>
+        <p>Efficient use of electricity and water.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footer mt-5 py-5 text-light" style="background:linear-gradient(135deg,#0f172a,#1e293b);">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <h3>Smart City Explorer</h3>
+        <p>Building smarter and greener cities for future generations.</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 col-12">
+        <h5>Quick Links</h5>
+        <a href="index.html" class="d-block text-light-emphasis">Home</a>
+        <a href="about.html" class="d-block text-light-emphasis">About</a>
+        <a href="contact.html" class="d-block text-light-emphasis">Contact</a>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12">
+        <h5>Subscribe</h5>
+        <input type="email" class="form-control mb-2" placeholder="Enter email">
+        <button class="btn btn-success w-100">Subscribe</button>
+      </div>
+
+    </div>
+    <hr>
+    <p class="text-center">© 2026 Smart City Explorer</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Lexend", sans-serif;
+  background:#0f172a;
+  color:white;
+}
+
+.custom-navbar{
+  background:#111827;
+  padding:10px;
+}
+
+.navbar-brand{
+  color:#7ad276 !important;
+  font-weight:bold;
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.nav-link:hover{
+  color:#7ad276 !important;
+}
+
+.dropdown-menu{
+  background:#1e293b;
+}
+
+.dropdown-item{
+  color:white;
+}
+
+.dropdown-item:hover{
+  background:#7ad276;
+  color:black;
+}
+
+.carousel{
+  margin-top:20px;
+}
+
+#cityCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#energyCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#trafficCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#homesCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#transportCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#wasteCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#healthCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#parkCarousel{
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#cityCarousel #energyCarousel #trafficCarousel #homesCarousel #transportCarousel #wasteCarousel #healthCarousel #parkCarousel .carousel-item img{
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.carousel-caption{
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 15px;
+  bottom: 30px;
+}
+
+h1,h2,h3{
+  font-weight:bold;
+}
+
+h2{
+  color:#7ad276;
+  margin-bottom:15px;
+}
+
+p{
+  line-height:1.6;
+}
+
+.card{
+  background:#1e293b;
+  border:none;
+  color:white;
+  border-radius:10px;
+  padding:20px;
+  transition: transform ease-in 0.3s, ease-out 0.3s;
+}
+
+.card:hover{
+  transform:translateY(-12px);
+}
+
+.accordion-button{
+  background:#1e293b;
+  color:white;
+}
+
+.accordion-body{
+  background:#0f172a;
+  color:#ddd;
+}
+
+.btn-success{
+  background:#7ad276;
+  border:none;
+}
+
+.btn-success:hover{
+  background:#5fb85c;
+}
+
+.badge{
+  font-size:14px;
+  padding:8px 12px;
+}
+
+footer{
+  background:#111827;
+  padding-top:40px;
+}
+
+footer h3, footer h5{
+  color:#7ad276;
+}
+
+footer a{
+  color:white;
+  text-decoration:none;
+}
+
+footer a:hover{
+  color:#7ad276;
+}
+
+@media (max-width:992px){
+
+  .carousel-img{
+    height:380px;
+  }
+
+  .carousel-caption h1{
+    font-size:28px;
+  }
+
+  .carousel-caption p{
+    font-size:16px;
+  }
+
+  .navbar-brand{
+    font-size:18px;
+  }
+
+  .navbar-brand img{
+    height:35px;
+    width:35px;
+  }
+}
+
+@media (max-width:768px){
+
+  h1{ font-size:28px; }
+  h2{ font-size:24px; }
+  p{ font-size:15px; }
+
+  footer{
+    text-align:center;
+  }
+
+  .container{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .card{
+    padding:18px;
+  }
+}
+
+@media (max-width:576px){
+
+  .carousel-img{
+    height:260px;
+  }
+
+  .carousel-caption{
+    padding:10px;
+  }
+
+  .carousel-caption h1{
+    font-size:20px;
+  }
+
+  .carousel-caption p{
+    font-size:13px;
+  }
+
+  .badge{
+    font-size:12px;
+    padding:6px 10px;
+  }
+
+  .card{
+    padding:16px;
+  }
+}
+
+.alert{
+  background:#1e293b;
+  border:none;
+  color:white;
+  border-left:5px solid #7ad276;
+  border-radius:10px;
+}
+
+.alert h2{
+  color:#7ad276;
+}
+
+.alert-primary{
+  background:#1e293b;
+  color:white;
+}

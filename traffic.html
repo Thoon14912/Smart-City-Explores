@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Traffic • Smart Sustainable City Explorer</title>
+
+  <link rel="icon" type="image/png" href="images/Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold me-4" href="index.html">
+      <img src="images/Logo.png" style="height:45px;width:45px;">
+      Smart City Explorer
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">City Zones</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="transport.html">Transport</a></li>
+            <li><a class="dropdown-item" href="energy.html">Energy</a></li>
+            <li><a class="dropdown-item" href="traffic.html">Traffic</a></li>
+            <li><a class="dropdown-item" href="waste.html">Waste</a></li>
+            <li><a class="dropdown-item" href="homes.html">Homes</a></li>
+            <li><a class="dropdown-item" href="health.html">Health</a></li>
+            <li><a class="dropdown-item" href="parks.html">Park</a></li>
+            <li><a class="dropdown-item" href="water.html">Water</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Data & Map</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="city-map.html">City Map</a></li>
+            <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container mt-5 text-center">
+  <h1 class="fw-bold">Smart Traffic Monitoring</h1>
+  <p class="lead text-center">Modern cities use smart technology to monitor traffic in real time and keep roads safe, efficient, and less polluted. Using CCTV cameras, sensors, and artificial intelligence, smart traffic systems can detect congestion, accidents, and dangerous driving behaviour. These technologies help cities reduce travel time, improve safety, and create a better urban environment for everyone.</p>
+</div>
+
+<div class="container mt-5">
+  <h2 class="fw-semibold">Introduction</h2>
+  <p>
+    Traffic congestion is a major challenge in rapidly growing cities. Increasing numbers of vehicles lead to longer travel times, higher fuel consumption, air pollution, and more road accidents. Traditional traffic systems rely on fixed timers and manual monitoring, which cannot respond quickly to real-time road conditions. Smart traffic management uses cameras, sensors, and artificial intelligence to monitor roads, adjust traffic lights automatically, and provide live updates to drivers, helping cities become safer, faster, and more efficient.
+  </p>
+</div>
+
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+      
+      <div class="alert text-center p-5">
+        <h2 class="mb-3">Why Traffic Needs to Become Smart</h2>
+        <p class="mb-0">
+          Traffic congestion is one of the biggest problems in growing cities. 
+          Long travel times, road accidents, and vehicle pollution affect people’s health, productivity, and quality of life. 
+          Traditional traffic systems rely on fixed timers and human monitoring, which cannot react quickly to real-time conditions.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="trafficCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="images/traffic1.jpeg" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Heavy Traffic Congestion</h1>
+        <p>Cities experience long traffic jams during peak hours that waste time and fuel.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/traffic2.jpg" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Road Accidents</h1>
+        <p>Lack of monitoring leads to slow emergency response and unsafe roads.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/traffic3.jpg" class="d-block w-100 img-fluid carousel-img">
+      <div class="carousel-caption">
+        <h1>Air Pollution</h1>
+        <p>Vehicles stuck in traffic produce large amounts of carbon emissions.</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#trafficCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#trafficCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container mt-5">
+
+  <div class="text-center mb-4">
+    <h2>Smart Traffic Solutions</h2>
+  </div>
+
+  <div class="row text-center">
+
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <img src="images/ai traffic cameras.webp" class="card-img-top" alt="AI Traffic Cameras">
+        <h5>AI Traffic Cameras</h5>
+        <p>Smart CCTV cameras monitor roads 24/7 and detect accidents, speeding, and dangerous driving automatically.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <img src="images/smart traffic lights.jpeg" class="card-img-top" alt="Smart Traffic Lights">
+        <h5>Smart Traffic Lights</h5>
+        <p>Traffic lights adjust their timing based on real-time traffic flow to reduce congestion and waiting time.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 shadow">
+        <img src="images/smart parking system.jpg" class="card-img-top" alt="Smart Parking Systems">
+        <h5>Smart Parking Systems</h5>
+        <p>Sensors guide drivers to available parking spaces, reducing unnecessary driving and traffic buildup.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+<div class="container mt-5 px-lg-5">
+
+  <h2 class="text-center mb-5">Benefits of Smart Traffic</h2>
+
+  <div class="row g-4 justify-content-center">
+
+
+    <div class="col-sm-10 col-md-6 col-lg-3">
+      <div class="card h-100 text-center p-4 shadow">
+        <i class="bi bi-clock-history fs-1 mb-3"></i>
+        <h4>Reduced Travel Time</h4>
+        <p>
+          Smart traffic systems use real-time data to manage traffic lights 
+          and reduce congestion, helping people reach destinations faster.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="col-sm-10 col-md-6 col-lg-3">
+      <div class="card h-100 text-center p-4 shadow">
+        <i class="bi bi-shield-check fs-1 mb-3"></i>
+        <h4>Improved Road Safety</h4>
+        <p>
+          Cameras and sensors detect accidents instantly, allowing emergency 
+          services to respond quickly and reduce injuries.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="col-sm-10 col-md-6 col-lg-3">
+      <div class="card h-100 text-center p-4 shadow">
+        <i class="bi bi-wind fs-1 mb-3"></i>
+        <h4>Lower Pollution</h4>
+        <p>
+          Reduced traffic congestion means fewer vehicle emissions, 
+          improving air quality and supporting a healthier environment.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="col-sm-10 col-md-6 col-lg-3">
+      <div class="card h-100 text-center p-4 shadow">
+        <i class="bi bi-bar-chart-line fs-1 mb-3"></i>
+        <h4>Better City Planning</h4>
+        <p>
+          Traffic data helps governments plan roads, public transport, 
+          and infrastructure more efficiently for future growth.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <h2>Smarter Roads, Safer Cities</h2>
+  <p>Smart transportation is essential for the future of sustainable cities. Every smart traffic system helps create safer roads and cleaner air.</p>
+</div>
+
+
+<footer class="footer mt-5 py-5 text-light" style="background:linear-gradient(135deg,#0f172a,#1e293b);">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4">
+        <h3>Smart City Explorer</h3>
+        <p>Building smarter and greener cities for future generations.</p>
+        <div class="d-flex gap-3">
+          <a href="https://www.facebook.com/profile.php?id=61589331807177" class="text-light fs-5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/smartcityexplorerwebsite?igsh=NWJoOTdnbTNvN2oy&utm_source=qr" class="text-light fs-5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.tiktok.com/@smart.city.explor?_r=1&_t=ZS-967jxyKYe6E" class="text-light fs-5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tiktok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>Quick Links</h5>
+        <a href="index.html" class="d-block text-light-emphasis">Home</a>
+        <a href="about.html" class="d-block text-light-emphasis">About</a>
+        <a href="contact.html" class="d-block text-light-emphasis">Contact</a>
+      </div>
+
+      <div class="col-lg-4">
+        <h5>Subscribe</h5>
+        <input type="email" class="form-control mb-2" placeholder="Enter email">
+        <button class="btn btn-success w-100">Subscribe</button>
+      </div>
+
+    </div>
+
+    <hr>
+    <p class="text-center">© 2026 Smart City Explorer</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el))
+</script>
+</body>
+</html>
